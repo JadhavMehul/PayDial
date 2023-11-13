@@ -1,0 +1,201 @@
+@media only screen and (max-width: 600px){
+    .mobile_none {
+        display: none;
+    }
+    .desktop_none {
+        display: block;
+    }
+    .header-top {
+        padding: 18px 0px;
+    }
+    .lang {
+        font-size: 24px!important;
+    }
+    .mobile-head {
+        z-index: 99 !important;
+        padding: 16px 24px;
+        height: 50px;
+    }
+    .mobile-slide-menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        top: 2px;
+        height: 100% !important;
+        z-index: 5;
+        opacity: 1;
+    }
+    .mobile-slide-menu .mobile-slide-head {
+        position: absolute;
+        width: 100%;
+        padding: 21px 24px;
+        align-items: center!important;
+    }
+    .user_shipping{
+        position: fixed;
+        right: 79px;
+        top: 10px;
+    }
+    #webmobile-menu {
+        clear: both;
+        position: absolute;
+        top: 101px;
+        padding: 25px;
+        width: 100%;
+        background: #FBFBF9;
+    }
+    .mobile-slide-menu .mobile-slide-head .menuactive {
+        position: relative;
+        top: 1px;
+        float: right;
+    } 
+    .inactive{
+        position: relative;
+        top: 0px;
+        float: right;
+    }
+    #webmobile-menu .nav-link {
+        text-align: center;
+        font-family: 'Darker Grotesque 700';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33.324px; /* 111.08% */
+        text-transform: capitalize;
+        color: #F4F4F4!important;
+        padding: 0px;
+        margin-bottom: 24px;
+    }
+    
+    #webmobile-menu {
+        clear: both;
+        position: absolute;
+        top: 80px;
+        padding: 0px;
+        width: 100%;
+        max-width: 100%;
+        right: 0px;
+        background: #FFF;
+    }   
+    .header_menu_mobo {
+        background: url(../img/header_menu_mobo.png);
+        margin: 0px 10px 10px 10px;
+        padding-top: 100px;
+        background-size: contain;
+        padding-bottom: 38px;
+
+    }   
+    .nav_heading{
+        position: relative;
+    }
+    .inactive, .menuactive{
+        font-family: 'SoleilRegular';
+        font-size: 16px;
+        line-height: 36px;
+        font-weight: 400;
+        color: #2C3F29;
+    }
+    .header_divider{
+        background: #BEC543;
+        height: 1px;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+
+
+    .footer {
+        background: url(../img/footer_bg_mobo.png);
+        padding: 40px 12px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+    .footer_link {
+        color: #9B9B9B;
+        font-family: 'Darker Grotesque 600';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+    }
+    .footer_un_order_list {
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        gap: 24px;
+    }
+    .footer_breaker {
+        background: rgba(255, 255, 255, 0.15);
+        height: 1px;
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .footer_bottom_left {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_cort_detail_text {
+        color: #D0D0D0;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 142.023%; /* 17.043px */
+        margin-bottom: 24px;
+    }
+    .mobo_unfot {
+        display: none;
+    }
+    .mobo_unfot_2 {
+        display: flex;
+        list-style-type: none;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .nav_logo {
+        width: 123px;
+        height: 44px;
+        padding: 7px 17.28px 8.39px 16px;
+        background: #D0D0D0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn_naver {
+        padding: 16px 24px!important;
+        height: auto!important;
+        color: #FFF;
+        text-align: center;
+        width: fit-content;
+        /* Function/CTA */
+        font-family: 'Darker Grotesque 700'!important;
+        font-size: 18px!important;
+        font-style: normal!important;
+        font-weight: 700!important;
+        line-height: 18px!important; /* 100% */
+        text-transform: capitalize!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fotr_btm_ri {
+        width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nhs {
+        font-size: 12px!important;
+    }
+}

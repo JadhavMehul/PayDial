@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PayDial</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav-icon.svg">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/logic_style.css">
+    <link rel="stylesheet" href="./css/logic_responsive.css">
+    <link rel="stylesheet" href="./css/m_style.css">
+    <link rel="stylesheet" href="./css/m_responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        
+        .carousel-caption {
+            right: 0!important;
+            left: 0!important;
+            max-width: 1090px!important;
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+        
+        .carousel-control-next {
+            right: 200px;
+            top: 130px;
+        }
+        .carousel-control-prev {
+            left: 200px;
+            top: 130px;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            width: fit-content;
+            height: fit-content;
+        }
+        .carousel-control-next, .carousel-control-prev, .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+            opacity: 1;
+        }
+        @media only screen and (max-device-width: 600px) {
+            .carousel-caption {
+                padding-top: 32px!important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header-top fixed-top">
+        <div class="container desktop d-none d-md-block d-lg-block ">
+            <div class="header-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <a href="index.html" class="block_nav_anchor">
+                            <img src="./img/nav_logo.svg" style="width:215px;" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse navbar_center justify-content-end"
+                                id="navbarNavDesktop">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our
+                                            Story</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="solutions.html">Solutions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="strategy.html">Strategy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="features.html">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="breaker"></div>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa pe-0" aria-current="page" href="#">
+                                            Language:
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags active pe-0" aria-current="page" href="#">
+                                            <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags" aria-current="page" href="#">
+                                            <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn btn_naver ms-3" aria-current="page"
+                                            href="#">Get&nbsp;Started</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile d-block d-lg-none d-md-none">
+            <div class="mobile-head d-flex align-items-center justify-content-between">
+                <a href="index.html" class="block_nav_anchor">
+                    <img src="./img/nav_logo_mobo.svg" class="img-fluid">
+                </a>
+                <div class="d-flex">
+                    <p class="inactive mb-0"><img src="./img/hamburger_menu_mob.svg" class="img-fluid"></p>
+                </div>
+
+            </div>
+            <div class="mobile-slide-menu" style="display: none;">
+                <div class="mobile-slide-head">
+                    <p class="menuactive mb-0"><img src="./img/hamburger_menu_mob_close.svg" class="img-fluid"></p>
+                </div>
+                <div id="webmobile-menu">
+                    <div class="header_menu_mobo">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="solutions.html">Solutions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="strategy.html">Strategy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="features.html">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="footer_breaker mx-auto mb-4 mt-0" style="max-width:267px;"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="d-flex justify-content-center gap-3">
+                                    <a class="nav-link hova_opa lang" aria-current="page" href="#">
+                                        Language:
+                                    </a>
+                                    <a class="nav-link flags active" aria-current="page" href="#">
+                                        <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                    <a class="nav-link flags" aria-current="page" href="#">
+                                        <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn_naver" aria-current="page" href="#">Get&nbsp;Started</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features_s1">
+        <div class="container">
+            <div class="features_top_div">
+                <h1 class="features_title" data-aos="fade-up">Platform Features</h1>
+                <p class="features_subtitle" data-aos="fade-up">
+                    Discover the technology that establishes us as a frontrunner as an integrated payments platform. <span>Select one of our features</span> below to learn more about it and its benefits.
+                </p>
+                <div class="no_way_desk">
+                    <div class="custom_dropdown_feature" id="custom_dropdown_feature">
+                        <p id="my_text" data-aos="fade-up">24/7 Technical Support</p>
+                    </div>
+                    <div class="custom_drop_feature_btns_div d-none" id="custom_drop_feature_btns_div">
+                        <div class="custom_drop_feature_btns active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        aria-current="true" aria-label="Slide 1" id="madi_1" onclick="feature_drop_fun('24/7 Technical Support', 'madi_1')">
+                            <p data-aos="fade-up">24/7 Technical Support</p>
+                        </div>
+                        <div class="custom_drop_feature_btns" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2" id="madi_2" onclick="feature_drop_fun('Reconciliation Management', 'madi_2')">
+                            <p data-aos="fade-up">Reconciliation Management</p>
+                        </div>
+                        <div class="custom_drop_feature_btns" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3" id="madi_3" onclick="feature_drop_fun('Chargeback Management', 'madi_3')">
+                            <p data-aos="fade-up">Chargeback Management</p>
+                        </div>
+                        <div class="custom_drop_feature_btns" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4" id="madi_4" onclick="feature_drop_fun('Reporting & Analytics', 'madi_4')">
+                            <p data-aos="fade-up">Reporting & Analytics</p>
+                        </div>
+                        <div class="custom_drop_feature_btns" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5" id="madi_5" onclick="feature_drop_fun('Fraud Prevention', 'madi_5')">
+                            <p data-aos="fade-up">Fraud Prevention</p>
+                        </div>
+                        <div class="custom_drop_feature_btns" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6" id="madi_6" onclick="feature_drop_fun('Level 1 PCI-DSS Certified', 'madi_6')">
+                            <p data-aos="fade-up">Level 1 PCI-DSS Certified</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features_carousel_div lazy">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators features_carousel_indicators">
+                        
+                            <div class="carousel_feature_indicator active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                             aria-current="true" aria-label="Slide 1">
+                                <img data-original="./img/carousle_features_im_1.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">24/7 Technical Support</p>
+                            </div>
+                            
+                            <div class="carousel_feature_indicator" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2">
+                                <img data-original="./img/carousle_features_im_2.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">Reconciliation Management</p>
+                            </div>
+                            
+                            <div class="carousel_feature_indicator" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3">
+                                <img data-original="./img/carousle_features_im_3.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">chargeback Management</p>
+                            </div>
+                            
+                            <div class="carousel_feature_indicator" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4">
+                                <img data-original="./img/carousle_features_im_4.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">Reporting & Analytics</p>
+                            </div>
+
+                            <div class="carousel_feature_indicator" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5">
+                                <img data-original="./img/carousle_features_im_5.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">Fraud Prevention</p>
+                            </div>
+                            
+                            <div class="carousel_feature_indicator" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 6">
+                                <img data-original="./img/carousle_features_im_6.svg" alt="" class="img-fluid carousel_features_img_indicator lazy">
+                                <p class="carousel_feature_card_title" data-aos="fade-up">Level 1 PCI-DSS Certified</p>
+                            </div>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1000000">
+                            <div class="carousel_features fd_1">
+                                <div class="carousel_feature_card">
+                                    <img src="./img/carousle_features_im_1.svg" alt="" class="img-fluid carousel_features_img ">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">24/7 Technical Support</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    Be it a technical issue or a general query - we deploy support teams that work round the clock, 365 days a year to make sure your platform experience is the best it can be. Say goodbye to hassle and hello to a technician who will be at your beck-and-call!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000000">
+                            <div class="carousel_features fd_2">
+                                <div class="carousel_feature_card">
+                                    <img data-original="./img/carousle_features_im_2.svg" alt="" class="img-fluid carousel_features_img lazy">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">Reconciliation Management</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    We compare and consolidate your transaction data through the gateway and the payment providers data and make sure the numbers add up, helping you get better visibility and the results you want from your reporting. This saves you time and effort, while maintaining a precise record of what has happened.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000000">
+                            <div class="carousel_features fd_3">
+                                <div class="carousel_feature_card">
+                                    <img data-original="./img/carousle_features_im_3.svg" alt="" class="img-fluid carousel_features_img lazy">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">chargeback Management</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    Chargebacks are a part of any business, especially in the e-commerce domain. However, if managed poorly, they can create operational chaos and a lot of confusion. Our chargeback management teams help you connect with your customers, better understand the reasons for the chargebacks, and avoid unpleasant scenarios. We can facilitate a pre-chargeback alert service for you so that you can be hands-on with your approach, resolving issues quicker than ever before.By incorporating services such as Ethoca Alerts and or Verifi CDRN into the gateway we can reduce fraud and non-fraud chargebacks by up to 40% helping you to keep a direct control over the impact of these on your business. Our knowledge of the products and your sector/client base will help us guide you to select the relevant services to reduce chargebacks, increase profitability and build a strong client base.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000000">
+                            <div class="carousel_features fd_4">
+                                <div class="carousel_feature_card">
+                                    <img data-original="./img/carousle_features_im_4.svg" alt="" class="img-fluid carousel_features_img lazy">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">Reporting & Analytics</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    The transactional metrics associated with our platform are numerous. Innovation is a part of who we are, the statistics interface enables clients to generate and schedule extensive reports. In order to make sure our services are the best they can be, we make the most of our data, carrying advanced analytics for actionable insights into boosting security, ensuring compliance, delivering customised experiences, and staying ahead of our peers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000000">
+                            <div class="carousel_features fd_5">
+                                <div class="carousel_feature_card">
+                                    <img data-original="./img/carousle_features_im_5.svg" alt="" class="img-fluid carousel_features_img lazy">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">Fraud Prevention</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    Our payment data protocols are the most effective in the business and they are constantly updated to make sure they cannot be exploited. We use advanced encryption and follow the PCI-DSS requirements. The Risk Engine combined with ever advancing AI components create an evolving pattern detection algorithm that picks up new trends before frauds even occur. Why do we go above and beyond to ensure such high security standards? Because we know security brings trust - and trust inspires customer loyalty.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000000">
+                            <div class="carousel_features fd_6">
+                                <div class="carousel_feature_card">
+                                    <img data-original="./img/carousle_features_im_6.svg" alt="" class="img-fluid carousel_features_img lazy">
+                                    <p class="carousel_feature_card_title" data-aos="fade-up">Level 1 PCI-DSS Certified</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption .caur_cap">
+                                <p class="features_carousel_subs" data-aos="fade-up">
+                                    The PCI Security Standards Council doesn't certify payment gateways that have even the smallest of flaws in their security protocols or technologies. The PCI Security Standards Council also keeps a vigilant eye on emerging threats, constantly updating their security standards and training security teams.Security is our foremost priority and in order to make our platform as secure as possible, we comply with the standards to allow us to be awarded PCI-DSS Level 1 certification. We follow the kind of security policies that safely allow you to store payment data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <div class="feature_carousel_btns">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                              <circle cx="21.9998" cy="22" r="20.6667" transform="rotate(180 21.9998 22)" fill="#5551FF" stroke="#5551FF" stroke-width="1.00088" stroke-linejoin="round"/>
+                              <path d="M22.6458 30.3956L22.6458 13.604" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.8958 23.9373C17.9223 26.9638 19.6192 28.6607 22.6458 31.6873L30.3958 23.9373" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <div class="feature_carousel_btns">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                              <circle cx="21.9998" cy="22" r="20.6667" transform="rotate(180 21.9998 22)" fill="#5551FF" stroke="#5551FF" stroke-width="1.00088" stroke-linejoin="round"/>
+                              <path d="M22.6458 30.3956L22.6458 13.604" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.8958 23.9373C17.9223 26.9638 19.6192 28.6607 22.6458 31.6873L30.3958 23.9373" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="homepage_s6">
+        <div class="container">
+            <div class="home_s6_content">
+                <h1 class="home_s6_title" data-aos="fade-up">Join the digital <span>revolution</span> with PayDial</h1>
+                <p class="home_s6_subtitle" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur. Diam donec non quis eget nulla. Dignissim leo nibh volutpat sagittis. Amet lacinia id gravida nunc. Sit ultricies posuere commodo erat id est. </p>
+                <button class="btn btn_global d-flex mx-auto">Sign up today</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="mobile_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="desktop_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">T’s & C’s</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Cookies Policy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_breaker"></div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_bottom_left">
+                            <img src="./img/footer_logo.svg" style="max-width: 215px;" class="img-fluid">
+                            <div class="footer_corp_detail">
+                                <p class="footer_cort_detail_text">
+                                    SocialDialServices FZE Trading as Paydial.ae 
+                                    Registration Number 2200 
+                                    Dubai, UAE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fotr_btm_ri">
+                            <ul class="footer_un_order_list_right mobo_unfot">
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_1" class="footer_link">Terms & Conditions</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_2" class="footer_link">Cookies Policy</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_3" class="footer_link">Privacy Policy</a>
+                                </li>
+                            </ul>
+                            <ul class="footer_un_order_list_right mobo_unfot_2 mb-0">
+                                <li class="footer_list">
+                                    <a href="#" class="footer_link nhs">© 2023 - PayDial. All rights reserved.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/owl.carousel.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.js"></script>
+    <script src="dist/js/slick.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="dist/js/jquery.lazyscrollloading.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+        $(document).ready(function () {
+            $(function () {
+                $("img.lazy").lazyload({
+                    effect: "fadeIn"
+                });
+                $(".lazy").lazyload({
+                    effect: "fadeIn"
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".inactive").click(function () {
+                $(".mobile-slide-menu").fadeIn("slow");
+                $(".inactive").fadeOut("slow")
+            });
+            $(".menuactive").click(function () {
+                $(".mobile-slide-menu").fadeOut("slow");
+                $(".inactive").fadeIn("slow")
+            });
+            $(".item").hover(function () {
+                $(this).toggleClass("item-card_hover");
+            });
+        });
+
+
+        $(document).ready(function () {
+            $(".custom_dropdown_feature").click(function () {
+                const custom_drop_feature_btns_div = document.querySelector('#custom_drop_feature_btns_div');
+                if (custom_drop_feature_btns_div.classList.contains('d-none')) {
+                    custom_drop_feature_btns_div.classList.remove("d-none");
+                    document.querySelector('#custom_dropdown_feature').classList.add('yoga');
+                } else {
+                    custom_drop_feature_btns_div.classList.add("d-none");
+                    document.querySelector('#custom_dropdown_feature').classList.remove('yoga');
+                }
+            })
+        })
+        
+
+        function feature_drop_fun(my_text, madi) {
+            document.getElementById('my_text').innerHTML = my_text;
+            for (let i = 1; i < 7; i++) {
+                if (document.querySelector('#madi_' + i).classList.contains('active')) {
+                    document.querySelector('#madi_' + i).classList.remove("active");
+                }
+            }
+            const x = document.querySelector('#' + madi);
+            x.classList.add("active");
+            
+            const custom_drop_feature_btns_div = document.querySelector('#custom_drop_feature_btns_div');
+            if (custom_drop_feature_btns_div.classList.contains('d-none')) {
+                custom_drop_feature_btns_div.classList.remove("d-none");
+            } else {
+                custom_drop_feature_btns_div.classList.add("d-none");
+            }
+        }
+
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1.2
+                    },
+
+                    1000: {
+                        items: 2.5
+                    }
+                }
+            });
+        });
+        
+        
+        
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          duration: 1000,
+          once:true,
+        });
+    </script>
+</body>
+
+</html>

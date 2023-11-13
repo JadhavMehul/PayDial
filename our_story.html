@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PayDial</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav-icon.svg">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/logic_style.css">
+    <link rel="stylesheet" href="css/logic_responsive.css">
+    <link rel="stylesheet" href="./css/m_style.css">
+    <link rel="stylesheet" href="./css/m_responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header-top fixed-top">
+        <div class="container desktop d-none d-md-block d-lg-block ">
+            <div class="header-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <a href="index.html" class="block_nav_anchor">
+                            <img src="./img/nav_logo.svg" style="width:215px;" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse navbar_center justify-content-end"
+                                id="navbarNavDesktop">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our
+                                            Story</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="solutions.html">Solutions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="strategy.html">Strategy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="features.html">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="breaker"></div>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa pe-0" aria-current="page" href="#">
+                                            Language:
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags active pe-0" aria-current="page" href="#">
+                                            <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags" aria-current="page" href="#">
+                                            <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn btn_naver ms-3" aria-current="page"
+                                            href="#">Get&nbsp;Started</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile d-block d-lg-none d-md-none">
+            <div class="mobile-head d-flex align-items-center justify-content-between">
+                <a href="index.html" class="block_nav_anchor">
+                    <img src="./img/nav_logo_mobo.svg" class="img-fluid">
+                </a>
+                <div class="d-flex">
+                    <p class="inactive mb-0"><img src="./img/hamburger_menu_mob.svg" class="img-fluid"></p>
+                </div>
+
+            </div>
+            <div class="mobile-slide-menu" style="display: none;">
+                <div class="mobile-slide-head">
+                    <p class="menuactive mb-0"><img src="./img/hamburger_menu_mob_close.svg" class="img-fluid"></p>
+                </div>
+                <div id="webmobile-menu">
+                    <div class="header_menu_mobo">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="solutions.html">Solutions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="strategy.html">Strategy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="features.html">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="footer_breaker mx-auto mb-4 mt-0" style="max-width:267px;"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="d-flex justify-content-center gap-3">
+                                    <a class="nav-link hova_opa lang" aria-current="page" href="#">
+                                        Language:
+                                    </a>
+                                    <a class="nav-link flags active" aria-current="page" href="#">
+                                        <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                    <a class="nav-link flags" aria-current="page" href="#">
+                                        <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn_naver" aria-current="page" href="#">Get&nbsp;Started</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="story_s1">
+        <video class="bg-image" loop="" muted="" autoplay="" style="object-fit: cover;">
+            <source src="./img/PayDial_Desk_OurStory.mp4" type="video/mp4">
+        </video>
+        <video class="bg-image d-lg-none d-md-none d-block" loop="" muted="" autoplay=""
+            style="object-fit: cover;">
+            <source src="./img/PayDial_Mobo_OurStory.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="story_s1_content_div">
+                <h1 class="story_s1_title" data-aos="fade-up">
+                    Accompanying<br class="nanana"> you for every step
+                </h1>
+                <p class="story_s1_subtitle" data-aos="fade-up">
+                    Introducing PayDial, Your Trusted Payment Partner. We redefine the future of financial interactions. With cutting-edge technology and unwavering commitment, we simplify payments, making commerce effortless. Join us in shaping a borderless, secure, and efficient payment landscape.
+                </p>
+            </div>
+            <a href="#story_s2">
+            <div class="hs1_btm_arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                  <circle cx="21.9998" cy="22" r="20.6667" transform="rotate(180 21.9998 22)" fill="#5551FF" stroke="#5551FF" stroke-width="1.00088" stroke-linejoin="round"/>
+                  <path d="M22.6458 30.3956L22.6458 13.604" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.8958 23.9373C17.9223 26.9638 19.6192 28.6607 22.6458 31.6873L30.3958 23.9373" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="story_s2 lazy" id="story_s2">
+        <img data-original="./img/story_s2_i1_mobo.png" alt="" class="img-fluid story_s2_i1_mobo lazy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img data-original="./img/story_s2_im_1.png" alt="" class="img-fluid story_s2_i1 lazy">
+                </div>
+                <div class="col-md-7">
+                    <div class="story_s2_content_div">
+                        <h1 class="story_s2_title" data-aos="fade-up">
+                            Your dedicated partner
+                        </h1>
+                        <p class="story_s2_subtitle" data-aos="fade-up">
+                            Navigating the intricacies of online transactions requires a trusted ally, and at PayDial, we deeply understand your needs. Our platform, an eco-conscious innovation, is carefully crafted for business owners looking to conquer payment processing challenges and expand their horizons.
+                            <br><br>
+                            Effortlessly monitor transactions, fortify defences against various fraud attempts, and access comprehensive reports for vigilant business oversight. Partnering with PayDial means embracing a seamless, secure, and strategically evolved financial landscape. Rely on PayDial's expertise to simplify complexities, allowing you to channel your energies into growing your business and thriving in the digital economy.
+                        </p>
+                        <button class="btn btn_global" onclick="window.location.href='solutions.html'">View our Solutions</button>
+                    </div>
+                </div>
+            </div>
+            <div class="story_s2_im_div lazy">
+                <img data-original="img/story_s2_im_img1.png" alt="" class="img-fluid story_s2_i_joint lazy">
+                <!--<img src="img/story_s2_im_2.png" alt="" class="img-fluid story_s2_i_joint">-->
+                <!--<img src="img/story_s2_im_3.png" alt="" class="img-fluid story_s2_i_joint">-->
+                <!--<img src="img/story_s2_im_4.png" alt="" class="img-fluid story_s2_i_joint">-->
+            </div>
+        </div>
+        <img data-original="img/story_s2_im_img1.png" alt="" class="img-fluid story_s2_i_joint_new lazy">
+    </section>
+
+    <section class="story_s3">
+        <div class="container">
+            <h1 class="story_s3_title" data-aos="fade-up">Platform Features</h1>
+            <div class="row new_marcopolo">
+                <div class="col-md-4">
+                    <div class="story_s3_card c1">
+                        <img src="./img/hs5_im1.svg" alt="" class="img-fluid hs5_img">
+                        <h4 class="story_s3_card_title" data-aos="fade-up">24/7 Technical Support</h4>
+                        <p class="story_s3_card_subtitle" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur. Diam donec non quis eget nulla. Dignissim leo nibh.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="story_s3_card c2">
+                        <img src="./img/hs5_im2.svg" alt="" class="img-fluid hs5_img">
+                        <h4 class="story_s3_card_title" data-aos="fade-up">chargeback Management</h4>
+                        <p class="story_s3_card_subtitle" data-aos="fade-up" >Lorem ipsum dolor sit amet consectetur. Diam donec non quis eget nulla. Dignissim leo nibh.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="story_s3_card c3">
+                        <img src="./img/hs5_im3.svg" alt="" class="img-fluid hs5_img">
+                        <h4 class="story_s3_card_title" data-aos="fade-up">chargeback Management</h4>
+                        <p class="story_s3_card_subtitle" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur. Diam donec non quis eget nulla. Dignissim leo nibh.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn_global d-flex mx-auto" onclick="window.location.href='features.html'">Explore all Features</button>
+        </div>
+    </section>
+    
+    <section class="story_s2 lazy">
+        <img data-original="./img/story_s2_i2_mobo.png" alt="" class="img-fluid story_s2_i1_mobo lazy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 order-md-2">
+                    <div class="nome">
+                    <img data-original="./img/story_s4_im_1.png" alt="" class="img-fluid story_s2_i1 d-flex ms-auto lazy">
+                    </div>
+                </div>
+                <div class="col-md-7 order-md-1">
+                    <div class="story_s2_content_div">
+                        <h1 class="story_s2_title" data-aos="fade-up">
+                            Our Mission
+                        </h1>
+                        <p class="story_s2_subtitle" data-aos="fade-up">
+                            At PayDial, our endeavour is to forge connections with our clients, comprehending their distinct requisites. Our objective: deliver unparalleled personalised services, ensuring your online payment demands are met and your aspirations fostered.
+                            <br><br>
+                            Operational procedures often demand substantial time and effort. However, with the committed team at PayDial, accomplishing more with minimal hassle becomes achievable. Our products adhere to industry benchmarks, while our specialists craft bespoke strategies to foster the expansion of your unique business. Trust PayDial to simplify intricacies, empowering you to focus on achieving remarkable growth.
+                        </p>
+                        <button class="btn btn_global">View our Solutions</button>
+                    </div>
+                </div>
+            </div>
+            <div class="story_s2_im_div lazy">
+                <img data-original="img/story_s2_im_img2.png" alt="" class="img-fluid story_s2_i_joint lazy">
+                <!--<img src="img/story_s4_im_2.png" alt="" class="img-fluid story_s2_i_joint">-->
+                <!--<img src="img/story_s4_im_3.png" alt="" class="img-fluid story_s2_i_joint">-->
+                <!--<img src="img/story_s4_im_4.png" alt="" class="img-fluid story_s2_i_joint">-->
+            </div>
+        </div>
+        <img data-original="img/story_s2_im_img2.png" alt="" class="img-fluid story_s2_i_joint_new lazy">
+    </section>
+    
+    <section class="homepage_s6">
+        <div class="container">
+            <div class="home_s6_content">
+                <h1 class="home_s6_title" data-aos="fade-up">Join the digital <span>revolution</span> with PayDial</h1>
+                <p class="home_s6_subtitle" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur. Diam donec non quis eget nulla. Dignissim leo nibh volutpat sagittis. Amet lacinia id gravida nunc. Sit ultricies posuere commodo erat id est. </p>
+                <button class="btn btn_global d-flex mx-auto">Sign up today</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="mobile_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="desktop_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">T’s & C’s</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Cookies Policy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_breaker"></div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_bottom_left">
+                            <img src="./img/footer_logo.svg" style="max-width: 215px;" class="img-fluid">
+                            <div class="footer_corp_detail">
+                                <p class="footer_cort_detail_text">
+                                    SocialDialServices FZE Trading as Paydial.ae 
+                                    Registration Number 2200 
+                                    Dubai, UAE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fotr_btm_ri">
+                            <ul class="footer_un_order_list_right mobo_unfot">
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_1" class="footer_link">Terms & Conditions</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_2" class="footer_link">Cookies Policy</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_3" class="footer_link">Privacy Policy</a>
+                                </li>
+                            </ul>
+                            <ul class="footer_un_order_list_right mobo_unfot_2 mb-0">
+                                <li class="footer_list">
+                                    <a href="#" class="footer_link nhs">© 2023 - PayDial. All rights reserved.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/owl.carousel.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.js"></script>
+    <script src="dist/js/slick.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="dist/js/jquery.lazyscrollloading.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+        $(document).ready(function () {
+            $(function () {
+                $("img.lazy").lazyload({
+                    effect: "fadeIn"
+                });
+                $(".lazy").lazyload({
+                    effect: "fadeIn"
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".inactive").click(function () {
+                $(".mobile-slide-menu").fadeIn("slow");
+                $(".inactive").fadeOut("slow")
+            });
+            $(".menuactive").click(function () {
+                $(".mobile-slide-menu").fadeOut("slow");
+                $(".inactive").fadeIn("slow")
+            });
+            $(".item").hover(function () {
+                $(this).toggleClass("item-card_hover");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1.2
+                    },
+
+                    1000: {
+                        items: 2.5
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

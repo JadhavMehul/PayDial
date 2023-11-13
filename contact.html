@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PayDial</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav-icon.svg">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/logic_style.css">
+    <link rel="stylesheet" href="./css/logic_responsive.css">
+    <link rel="stylesheet" href="./css/m_style.css">
+    <link rel="stylesheet" href="./css/m_responsive.css">
+    <link rel="stylesheet" href="./css/s_style.css">
+    <link rel="stylesheet" href="./css/s_responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-top fixed-top">
+        <div class="container desktop d-none d-md-block d-lg-block ">
+            <div class="header-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <a href="index.html" class="block_nav_anchor">
+                            <img src="./img/nav_logo.svg" style="width:215px;" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse navbar_center justify-content-end"
+                                id="navbarNavDesktop">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our
+                                            Story</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="solutions.html">Solutions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="strategy.html">Strategy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page"
+                                            href="features.html">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="breaker"></div>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link hova_opa pe-0" aria-current="page" href="#">
+                                            Language:
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags active pe-0" aria-current="page" href="#">
+                                            <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link flags" aria-current="page" href="#">
+                                            <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn btn_naver ms-3" aria-current="page"
+                                            href="#">Get&nbsp;Started</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile d-block d-lg-none d-md-none">
+            <div class="mobile-head d-flex align-items-center justify-content-between">
+                <a href="index.html" class="block_nav_anchor">
+                    <img src="./img/nav_logo_mobo.svg" class="img-fluid">
+                </a>
+                <div class="d-flex">
+                    <p class="inactive mb-0"><img src="./img/hamburger_menu_mob.svg" class="img-fluid"></p>
+                </div>
+
+            </div>
+            <div class="mobile-slide-menu" style="display: none;">
+                <div class="mobile-slide-head">
+                    <p class="menuactive mb-0"><img src="./img/hamburger_menu_mob_close.svg" class="img-fluid"></p>
+                </div>
+                <div id="webmobile-menu">
+                    <div class="header_menu_mobo">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="our_story.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="solutions.html">Solutions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="strategy.html">Strategy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="features.html">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hova_opa" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="footer_breaker mx-auto mb-4 mt-0" style="max-width:267px;"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="d-flex justify-content-center gap-3">
+                                    <a class="nav-link hova_opa lang" aria-current="page" href="#">
+                                        Language:
+                                    </a>
+                                    <a class="nav-link flags active" aria-current="page" href="#">
+                                        <img src="./img/en.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                    <a class="nav-link flags" aria-current="page" href="#">
+                                        <img src="./img/ae.svg" class="img-fluid" style="width: 26px;">
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn_naver" aria-current="page" href="#">Get&nbsp;Started</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ContactUsPage">
+        <div class="contactHead">
+            <div class="conHeads">
+                <h1 class="title" data-aos="fade-up">Get in touch with us</h1>
+                <p class="subtitle" data-aos="fade-up">Please feel free to connect with us by completing the contact form provided
+                    below.<br class="breky">
+                    Our dedicated team will promptly respond to address any inquiries you might have.</p>
+                <div class="socials desk">
+                    <div class="container">
+                        <div class="row align-items-center socialrow">
+                            <div class="col-md-4">
+                                <div class="AddressMedia_logo">
+                                    <img src="./img/iconlocation.png" alt="" class="logoAdd">
+                                </div>
+                                <div class="AddressMedia_content">
+                                    <h4 class="address" data-aos="fade-up">Address</h4>
+                                     <p class="address2" data-aos="fade-up">P.O. Box 1714, Dubai <br>
+                                        United Arab Emirates (Uae)</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="emailMedia_logo">
+                                    <img src="./img/iconmail.png" alt="" class="logoemail">
+                                </div>
+                                <div class="emailMedia_content">
+                                    <h4 class="address" data-aos="fade-up">Email</h4>
+                                    <p class="address2" data-aos="fade-up">PayDial@info.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="phoneMedia_logo">
+                                    <img src="./img/iconPhone.png" alt="" class="logoPhone">
+                                </div>
+                                <div class="phoneMedia_content">
+                                    <h4 class="address" data-aos="fade-up">Phone</h4>
+                                    <p class="address2" data-aos="fade-up">+971 55 331 4823</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="socials mob">
+                    <div class="container">
+                        <div class="row align-items-center socialrow">
+                            <div class="col-12">
+                                <div class="AddressMedia_logo">
+                                    <img src="./img/iconlocation.png" alt="" class="logoAdd">
+                                
+                                    <h4 class="address" data-aos="fade-up">Address</h4>
+                                    <p class="address2" data-aos="fade-up">P.O. Box 1714, Dubai <br>
+                                        United Arab Emirates (Uae)</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="emailMedia_logo">
+                                    <img src="./img/iconmail.png" alt="" class="logoemail">
+                                
+                                    <h4 class="address" data-aos="fade-up">Email</h4>
+                                    <p class="address2" data-aos="fade-up">PayDial@info.com</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="phoneMedia_logo">
+                                    <img src="./img/iconPhone.png" alt="" class="logoPhone">
+                                
+                                    <h4 class="address" data-aos="fade-up">Phone</h4>
+                                    <p class="address2" data-aos="fade-up">+971 55 331 4823</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="mx-auto col-10 col-md-8 col-lg-6">
+                <!-- Form-->
+                <form class="row g-3 contactform" id="contactform">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputfname" placeholder="First Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputlname" placeholder="Last Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputCname" placeholder="Company Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="inputposit" placeholder="Position">
+                    </div>
+
+                    <input type="text" class="form-control site_url" id="basic-url" placeholder="Site URL"
+                        aria-describedby="basic-addon3">
+
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="Phone Number">
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Product/Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">24/7 Technical Support</a></li>
+                              <li><a class="dropdown-item" href="#">Reconciliation Management</a></li>
+                              <li><a class="dropdown-item" href="#">Chargeback Management</a></li>
+                              <li><a class="dropdown-item" href="#">Reporting & Analytics</a></li>
+                              <li><a class="dropdown-item" href="#">Fraud Prevention</a></li>
+                              <li><a class="dropdown-item" href="#">Level 1 PCI-DSS Certified</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="input-box" placeholder="Expected Monthly Turn Over">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" class="input-box pb-30 txtare" placeholder="Additional Information"
+                            id="" rows="4" cols="70"></textarea>
+                    </div>
+
+                    <div class="col-8">
+                        <div class="form-check">
+                            <input type="checkbox" name="terms2" id="terms2" class="chckbox">
+                            <p class="mb-0 tc">I Agree To The <a class="blue" style="color: #005BB9;text-decoration: none;" href="terms.html">Terms and
+                                    Conditions</a> &amp; <a class="blue" style="color: #005BB9;text-decoration: none;" href="terms.html">Privacy Policy</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Button for modal-->
+                    <div class="col-4 desk">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary SubButt" data-toggle="modal"
+                            data-target="#exampleModal" >Submit Form</button>
+                    </div>
+                    <div class="col-12 mob">
+                        <button type="button" class="btn btn-primary SubButt" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-toggle="modal"
+                            data-target="#exampleModal">Submit Form</button>
+                    </div>
+                      
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog main_modal">
+            <div class="modal-content modal_content">
+              <div class="modal-body moda_boda">
+                <button type="button" class="icon" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="material-icons">close</i>
+                </button>
+                <h1 class="modal_c_title">Form Submitted Successfully</h1>
+                <p class="modal_c_subtitle">
+                    Thank you for submitting your form! We will be reviewing your information and getting back to you as soon as we can.
+                </p>
+                
+                    <button class="btn btn_global d-flex mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal2">Return Home</button>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog main_modal main_modal2">
+            <div class="modal-content modal_content">
+              <div class="modal-body moda_boda">
+                <button type="button" class="icon" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="material-icons">close</i>
+                </button>
+                <h1 class="modal_c_title">There seems to be an <span>error</span></h1>
+                <p class="modal_c_subtitle">
+                    There was an error with your form submission. Please review your entries and try again. If the issue persists, please contact our support team for assistance.
+                </p>
+                
+                    <button class="btn btn_global d-flex mx-auto" data-bs-dismiss="modal" aria-label="Close">Return Home</button>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="mobile_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="desktop_none">
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="our_story.html" class="footer_link">Our Story</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="solutions.html" class="footer_link">Solutions</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="strategy.html" class="footer_link">Strategy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="features.html" class="footer_link">Features</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="contact.html" class="footer_link">Contact</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign In</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="#" class="footer_link">Sign Up</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">T’s & C’s</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_un_order_list">
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Cookies Policy</a>
+                        </li>
+                        <li class="footer_list">
+                            <a href="terms.html" class="footer_link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_breaker"></div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_bottom_left">
+                            <img src="./img/footer_logo.svg" style="max-width: 215px;" class="img-fluid">
+                            <div class="footer_corp_detail">
+                                <p class="footer_cort_detail_text">
+                                    SocialDialServices FZE Trading as Paydial.ae 
+                                    Registration Number 2200 
+                                    Dubai, UAE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fotr_btm_ri">
+                            <ul class="footer_un_order_list_right mobo_unfot">
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_1" class="footer_link">Terms & Conditions</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_2" class="footer_link">Cookies Policy</a>
+                                </li>
+                                <li class="footer_list">
+                                    <a href="terms.html#tc_3" class="footer_link">Privacy Policy</a>
+                                </li>
+                            </ul>
+                            <ul class="footer_un_order_list_right mobo_unfot_2 mb-0">
+                                <li class="footer_list">
+                                    <a href="#" class="footer_link nhs">© 2023 - PayDial. All rights reserved.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- dropdown script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/owl.carousel.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.js"></script>
+    <script src="dist/js/slick.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="dist/js/jquery.lazyscrollloading.js"></script>
+    <script>
+        AOS.init({
+          duration: 1000,
+          once:true,
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("img.lazy").lazyload({
+                    effect: "fadeIn"
+                });
+                $(".lazy").lazyload({
+                    effect: "fadeIn"
+                });
+            });
+        });
+    </script>
+    <!--Modal Script-->
+  <script>
+    var modalBtns = document.querySelectorAll(".SubButt");
+
+    modalBtns.forEach(function (btn) {
+      btn.onclick = function () {
+        var modal = btn.getAttribute("data-modal");
+
+        document.getElementById(modal).style.display = "block";
+      };
+    });
+
+    var closeBtns = document.querySelectorAll(".icon");
+
+    closeBtns.forEach(function (btn) {
+      btn.onclick = function () {
+        var modal = (btn.closest(".modal").style.display = "none");
+      };
+    });
+  </script>
+    <script>
+        $(document).ready(function () {
+            $(".inactive").click(function () {
+                $(".mobile-slide-menu").fadeIn("slow");
+                $(".inactive").fadeOut("slow")
+            });
+            $(".menuactive").click(function () {
+                $(".mobile-slide-menu").fadeOut("slow");
+                $(".inactive").fadeIn("slow")
+            });
+            $(".item").hover(function () {
+                $(this).toggleClass("item-card_hover");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1.2
+                    },
+
+                    1000: {
+                        items: 2.5
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+@media only screen and (max-device-width: 600px) {
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+    .main_modal {
+        max-width: 327px!important;
+        border-radius: 0px!important;
+        margin: 14vh auto!important;
+        background-position: center;
+    }
+    .main_modal2 {
+        max-width: 340px!important;
+        margin: 13vh auto!important;
+    }
+    .modal_content {
+        background: url(../img/popo_upup_mm.png);
+        border: 0px!important;
+        border-radius: 8px!important;
+        background-color: transparent!important;
+        padding: 40px 16px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .ContactUsPage {
+        padding: 0px;
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+    .icon {
+        background: none;
+        border: none;
+        color: #fff;
+        display: flex;
+        padding: 24px;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        stroke-width: 2px;
+        width: 13px;
+        height: 13px;
+        margin-left: 205px;
+        margin-top: -108px;
+    }
+    .title {
+        font-family: 'Darker Grotesque 600';
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: -40px;
+        margin-left: -23px;
+    }
+    .breky{
+        display: none;
+    }
+    .subtitle{
+        font-family: 'Inter';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 0px;
+        padding: 0px 24px 32px 24px;
+    }
+    .socialrow {
+        width: 0px; 
+        margin-left: 0px!important;
+    }
+    .socials {
+        margin-top: 85px;
+    }
+    .address {
+        margin-bottom: 0px;
+        margin-left: 73px;
+        margin-top: -108px;
+    }
+    .logoAdd {
+        margin-bottom: 20px;
+        margin-top: -35px;
+    }
+    .AddressMedia_logo {
+        background-image: none;
+        background-repeat: no-repeat; 
+        background-position: center; 
+        border-radius: 0px; 
+        border: 0px ;
+        padding: 15px;
+        width: 0px; 
+        height: 60px;
+        margin-bottom: 0px; 
+    }
+    .logoemail {
+        margin-top: 25px;
+        margin-bottom: 24px;
+    }
+    .emailMedia_logo {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0px;
+        border: 0px;
+        padding: 15px;
+        width: 0px;
+        height: 60px;
+        margin-top: -27px;
+        margin-bottom: 26px;
+    }
+    .logoPhone {
+        margin-top: 19px;
+        margin-bottom: 20px;
+    }
+    .phoneMedia_logo{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0px;
+        border: 0px;
+        padding: 15px;
+        width: 0px;
+        height: 60px;
+        margin-top: 13px;
+    }
+    .contactHead {
+        height: 560px;
+    }
+    .address2 {
+        color: #FFF;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 72px;
+        width: 400px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .contactform {
+        margin-top: 40px!important;
+        width: 617px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-control {
+        width: 293px!important;
+    }
+    .form-control:hover{
+        background: #FFF;
+        border: 1px solid #005BB9;
+    }
+    .site_url {
+        margin-left: 7px;
+    }
+    .form-select {
+        width: 293px;
+    }
+    .txtare {
+        width: 293px;
+    }
+    .txtare:hover{
+        background: #FFF;
+        border: 1px solid #005BB9;
+    }
+    .tc {
+        width: 285px;
+    }
+    .SubButt {
+        margin-bottom: 60px;
+        margin-top: 0px;
+        padding: 16px 24px;
+        margin-left: 0px; 
+        width: 295px;
+    }
+    .SubButt:hover {
+        color: #5551FF!important;
+        background: #FFF!important;
+        border: 3px solid #8A87FF!important;
+        padding: 14px 24px!important;
+    }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1348px) {
+    .socialrow {
+        width: 560px;
+        margin-left: 328px!important;
+    }
+}
+@media only screen and (min-device-width: 1349px) and (max-device-width: 1439px) {
+    .socialrow {
+        width: 560px;
+        margin-left: 325px!important;
+    }
+}

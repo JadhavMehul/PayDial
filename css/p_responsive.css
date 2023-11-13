@@ -1,0 +1,35 @@
+@media only screen and (max-device-width: 600px) {
+    .condition{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .nav-tabs{
+        border-bottom: 0px;
+    }
+    .nav-pills .nav-link.active{
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .nav-pills .nav-link{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .nav{
+        flex-wrap: nowrap;
+    }
+    .condition{
+        overflow: scroll;
+    }
+    .ter_c, .t_c {
+        width: max-content;
+    }
+     .last{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .termsandconditions{
+        padding-bottom: 0px;
+    }
+}
